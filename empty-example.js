@@ -21,17 +21,9 @@ let width = screenSize.width;
 // Will wait for that number of milliseconds before moving on. 1000ms = 1 second
 
 //Put your code here
-sleep(5000)
-robot.typeStringDelayed("hello there, i am a ghost living in your computer", 100)
-sleep(10000)
-robot.keyTap("enter")
-robot.keyTap("enter")
-robot.keyTap("enter")
-robot.keyTap("enter")
-robot.keyTap("enter")
-robot.typeStringDelayed("BOO", 100)
 
-// 
+
+
 function sleep(ms) {
   Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms);
 }
