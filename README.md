@@ -5,7 +5,8 @@ RobotJS is a desktop automation library that allows you to simulate human mouse 
 ## Getting Started
 - If you do not have node installed, install [https://nodejs.org/en/](NodeJS)
 - Create a 'robotjs' folder and enter that folder via Terminal/Command Prompt
-- In that folder run 'npm install robotjs' to install 
+- In that folder run 'npm install robotjs' to install
+- If you don't have a code editor, download and install [https://code.visualstudio.com/](Visual Studio Code) 
 - Copy/Paste or download 'empty-example.js' or one of the other examples and put them in that folder
 - Run a script by typing 'node nameofscript.js' in the terminal, where 'nameofscript' is the name of the file, like 'empty-example' or 'drawX'
 
