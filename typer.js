@@ -21,12 +21,13 @@ let width = screenSize.width;
 // Will wait for that number of milliseconds before moving on. 1000ms = 1 second
 
 //Put your code here
-setInterval(function(){
-  var mouse = robot.getMousePos();
-  console.log("Mouse is at x:" + mouse.x + " y:" + mouse.y);
-}, 500)
+sleep(2000)
+robot.moveMouseSmooth(1183, 186)
+robot.mouseClick()
+robot.typeString("Hello World");
+robot.keyTap("enter")
 
 
 function sleep(ms) {
   Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, ms);
-} 
+}
