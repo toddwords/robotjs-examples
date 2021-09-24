@@ -1,11 +1,12 @@
 # RobotJS Intro and Examples
 
-RobotJS is a desktop automation library that allows you to simulate human mouse movement and keyboard presses. More info at [http://robotjs.io/docs/](robotjs.io)
+RobotJS is a desktop automation library that allows you to simulate human mouse movement and keyboard presses. More info at [robotjs.io](http://robotjs.io/docs/)
 
 ## Getting Started
-- If you do not have node installed, install [https://nodejs.org/en/](NodeJS)
+- If you do not have node installed, install [NodeJS](https://nodejs.org/en/)
 - Create a 'robotjs' folder and enter that folder via Terminal/Command Prompt
-- In that folder run 'npm install robotjs' to install 
+- In that folder run 'npm install robotjs' to install
+- If you don't have a code editor, download and install [Visual Studio Code](https://code.visualstudio.com/)
 - Copy/Paste or download 'empty-example.js' or one of the other examples and put them in that folder
 - Run a script by typing 'node nameofscript.js' in the terminal, where 'nameofscript' is the name of the file, like 'empty-example' or 'drawX'
 
@@ -36,7 +37,7 @@ Will drag the mouse to the X, Y position. Must use *robot.mouseToggle("down")* b
 ### Keyboard
 
 **robot.keyTap("enter")**  
-Presses the enter key. Any key can be given to this function, i.e. *robot.keyTap("d")* or *robot.keyTap("backspace")*. Full key list (http://robotjs.io/docs/syntax#keys)[here].  
+Presses the enter key. Any key can be given to this function, i.e. *robot.keyTap("d")* or *robot.keyTap("backspace")*. Full key list [here](http://robotjs.io/docs/syntax#keys).  
 
 **robot.typeString("Hello World")**  
 Types out the given string instantly  
